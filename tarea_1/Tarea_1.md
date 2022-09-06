@@ -2,8 +2,12 @@
 
 **Modelos de distribución multivariados (variables discretas)**
 
+Equipo: 
+* Patricia Muñoz López
+* Michel Carmía Corona Bermúdez 
+* Gregorio Alberto Álvarez Álvarez
 
-1. Sea X e Y variables aleatorias bidimensionales discretas con función de masa probabilidad conjunta
+<br/><br/>1. Sea X e Y variables aleatorias bidimensionales discretas con función de masa probabilidad conjunta
 
 | X\Y | 1   | 3   |
 |-----|-----|-----|
@@ -13,23 +17,24 @@
 | 3   | 0   | 1/8 |
 
 
-Objtenga la función de distribución aculmada para los siguientes intervalos:
+**a)** Obtenga la función de distribución acumulada para los siguientes intervalos:
 
-$$F(x, y) = P(X \leq x, Y \leq y) = =\left\{
+$$F(x, y) = P(X \leq x, Y \leq y) = \left\{
             \begin{array}{ll}
-                0 \text{ } si \text{ } x < 0, \text{ y } y < 1 \\
-                0 \text{ } si \text{ } 0 \leq x < 1, 1 \leq y < 3\\
-                \frac{1}{8} \text{ } si \text{ } 0 \leq x < 1, y \geq 3\\
-                \frac{4}{8} \text{ } si \text{ } 1 \leq x < 2, y \geq 1\\
-                \frac{7}{8} \text{ } si \text{ } 2 \leq x < 3, y \geq 1\\
+                0 \text{ } si \text{ } x < 0, \text{ y } y < 1 \\\\
+                0 \text{ } si \text{ } 0 \leq x < 1, 1 \leq y < 3\\\\
+                \frac{1}{8} \text{ } si \text{ } 0 \leq x < 1, y \geq 3\\\\
+                \frac{4}{8} \text{ } si \text{ } 1 \leq x < 2, y \geq 1\\\\
+                \frac{7}{8} \text{ } si \text{ } 2 \leq x < 3, y \geq 1\\\\
                 \frac{6}{8} \text{ } si \text{ } x
-                \geq 3, 1 \leq y < 3\\
+                \geq 3, 1 \leq y < 3\\\\
                 1 \text{ } si \text{ } x
                 \geq 3, y \geq 3\\
             \end{array}
             \right.$$
 
-2. A continuación, se muestra la distribución de masa de probabilidad conjunta de 𝑋, 
+<br/><br/>
+**2.** A continuación, se muestra la distribución de masa de probabilidad conjunta de 𝑋, 
 el  número  de  contratos  otorgados  a  la  empresa  𝐴  y  𝑌,  el  número  de  contratos 
 otorgados a la empresa 𝐵
 
@@ -39,6 +44,7 @@ otorgados a la empresa 𝐵
 | 1   | 2/9 | 2/9 | 0   |
 | 2   | 1/9 | 0   | 0   |
 
+<br/><br/>
 **a)** Encuentre $𝑓_{𝑋𝑌}(0,1)$. ¿Cuál es la interpretación de este valor?
 
 $f_{XY}(0,1) = \frac{2}{9}$
@@ -92,8 +98,8 @@ $f_{XY}(0,0) = \frac{1}{9} \not = f_X(0)f_Y(0) = \frac{16}{81}$
 
 Por la propiedad de que la probabilidad conjunta sea igual a producto de las probabilidades marginales, no es verdadero.
 
-
-1. A  continuación,  se  da  la  función  de  masa  de  probabilidad  conjunta  asociada  con 
+<br/><br/>
+**3.**  A  continuación,  se  da  la  función  de  masa  de  probabilidad  conjunta  asociada  con 
 datos obtenidos en un estudio de accidentes automovilísticos en los que un niño (de 
 menos  de  5  años)  estaba  en  el  auto  y  hubo  al  menos  una  persona  muerta. 
 Específicamente  el  estudio  se  concentró  en  si  el  niño  sobrevivió  y  qué  tipo  de 
@@ -125,7 +131,7 @@ $Y = \left\{
 
 **a)** Encuentre 𝐹(1,1). ¿Cuál es la interpretación de este valor?
 
-Existe la probabilidad de 2.00% de que el niño no sobreviva, si al tener un accidente, utilizaba cinturon para adulto
+F(1,1) = 0.71. Representa la probabilidad acumulada de sobreviviencia a accidentes automovilísticos de menores de 5 años.
 
 **b)** Proporcione las funciones de probabilidad marginal de 𝑋 y 𝑌.
 
@@ -139,6 +145,8 @@ $f_Y(1) = 0.16$
 
 $f_Y(2) = 0.29$
 
+<br/><br/>
+<br/><br/>
 **c)** Proporcione la función de probabilidad condicional para 𝑌 dado que 𝑋 = 0.
 
 
@@ -159,7 +167,7 @@ cinturón del asiento del auto?
 
 $f_{X|Y}(X = 0|Y = 2) = \frac{f_{XY}(0, 2)}{f_Y(2)} = \frac{0.24}{0.29} \approx 0.83$
 
-f) ¿𝑋 y 𝑌 son independientes? ¿Por qué sí o por qué no?
+**f)** ¿𝑋 y 𝑌 son independientes? ¿Por qué sí o por qué no?
 
 $f_{XY}(x,y) = f_X(x)f_Y(Y)$ para toda $x$ e $y$ si se cumple para por lo menos un valor de x y y
 
@@ -169,7 +177,8 @@ $f_{XY}(0,0) = 0.38 \not = f_X(0)f_Y(0) = 0.76 \cdot 0.55 = 0.42$
 
 Por la propiedad de que la probabilidad conjunta sea igual a producto de las probabilidades marginales, no es verdadero y por tanto, no son independientes.
 
-4. De  un  grupo  de  tres  republicanos,  dos  demócratas  y  uno  independiente  se  ha  de 
+<br/><br/>
+**4. De  un  grupo  de  tres  republicanos,  dos  demócratas  y  uno  independiente  se  ha  de 
 seleccionar  aleatoriamente  un  comité  de  dos  personas.  La  función  de  masa  de 
 probabilidad conjunta asociada con el número de republicanos (𝑋) y el número de 
 demócratas (𝑌) que conforman un comité se muestra a continuación
@@ -180,30 +189,30 @@ demócratas (𝑌) que conforman un comité se muestra a continuación
 | 1   | 2/15 | 6/15 | 0    |
 | 2   | 1/15 | 0    | 0    |
 
-a) Encuentre  la  probabilidad  de  que  en  el  comité  haya  dos  republicanos  y  un 
+**a)** Encuentre  la  probabilidad  de  que  en  el  comité  haya  dos  republicanos  y  un 
 demócrata.
 
 $f_{XY}(2,1) = 0$
 
-b) Encuentre la probabilidad de que en el comité haya un republicano.
+**b)** Encuentre la probabilidad de que en el comité haya un republicano.
 
 $f_{X}(1) = \frac{9}{15} = \frac{3}{5}$
 
-c) Encuentre la probabilidad de que en el comité haya dos demócratas.
+**c)** Encuentre la probabilidad de que en el comité haya dos demócratas.
 
 $f_{Y}(2) = \frac{1}{15}$
 
-d) Encuentre  la  probabilidad  de  que  en  el  comité  no  haya  demócratas  dado  que 
+**d)** Encuentre  la  probabilidad  de  que  en  el  comité  no  haya  demócratas  dado  que 
 haya dos republicanos.
 
 $f_{Y|X}(Y=0|X=2) = \frac{3/15}{3/15} = 1$
 
-e) Encuentre  la  probabilidad  de  que  en  el  comité  haya  un  republicano  dado  que 
+**e)** Encuentre  la  probabilidad  de  que  en  el  comité  haya  un  republicano  dado  que 
 haya un demócrata.
 
 $F_{X|Y}(X=1|Y=1) = \frac{6/15}{8/15} = \frac{3}{4} = 0.75$
 
-f) ¿𝑋 y 𝑌 son independientes? ¿Por qué sí o por qué no?
+**f)** ¿𝑋 y 𝑌 son independientes? ¿Por qué sí o por qué no?
 
 
 $f_{XY}(x,y) = f_X(x)f_Y(Y)$ para toda $x$ e $y$ si se cumple para por lo menos un valor de x y y
@@ -214,7 +223,8 @@ $f_{XY}(1,1) = \frac{2}{5} = 0.4  \not = f_X(1)f_Y(0) = \frac{3}{5} \cdot \frac{
 
 Por la propiedad de que la probabilidad conjunta sea igual a producto de las probabilidades marginales, no es verdadero y por tanto, no son independientes.
 
-5. A  continuación,  se  muestra  la  función  de  masa  de  probabilidad  conjunta  sobre  la 
+<br/><br/>
+**5.** A  continuación,  se  muestra  la  función  de  masa  de  probabilidad  conjunta  sobre  la 
 población  de  departamentos  en  renta  de  Hong  Kong  donde  𝑋  representa  la  renta 
 mensual de los departamentos e 𝑌 representa el tipo de departamento.
 
@@ -228,31 +238,31 @@ mensual de los departamentos e 𝑌 representa el tipo de departamento.
 
 
 Calcule las siguientes probabilidades y de una interpretación de los resultados.
-a) P (X=Media, Y=Privado) 
+**a)** P (X=Media, Y=Privado) 
 
 $P(X=Media, Y=Privado)  = 0.03$
 
-b) P(X=Baja, Y=Público) 
+**b)** P(X=Baja, Y=Público) 
 
 $P(X=Baja, Y=Público) = 0.17$
 
-c) P (Y=Otros)
+**c)** P (Y=Otros)
 
 $P (Y=Otros) = 0.14$
 
-d) P (X=Alta)
+**d)** P (X=Alta)
 
 $P(X=Alta) = 0.24$
 
-e) P (X=Alta | Y=Privado)
+**e)** P (X=Alta | Y=Privado)
 
 $P(X=Alta | Y=Privado) = \frac{0.14}{0.25} = 0.56$
 
-f) P (Y=Otros | X=Media alta)
+**f)** P (Y=Otros | X=Media alta)
 
 $P(Y=Otros | X=Media alta) = \frac{0.01}{0.17} \approx 0.06$
 
-g) ¿El precio de la renta es independiente del tipo de departamento?
+**g)** ¿El precio de la renta es independiente del tipo de departamento?
 
 $f_{XY}(x,y) = f_X(x)f_Y(Y)$ para toda $x$ e $y$ si se cumple para por lo menos un valor de x y y
 
@@ -261,3 +271,8 @@ Entonces,
 $f_{X,Y}(Baja, Publico) = 0.17 \not = f_X(1)f_Y(0) = 0.2 \cdot 0.61 \approx 0.12$
 
 Por la propiedad de que la probabilidad conjunta sea igual a producto de las probabilidades marginales, no es verdadero y por tanto, no son independientes.
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
+</script>
