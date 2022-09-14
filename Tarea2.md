@@ -128,7 +128,7 @@ con el tiempo medido en minutos. Encuentre
 a)P(X<2,Y>1).
 
 $$
-0 \leq y \leq x \newline
+0 \leq y \leq x \\
 y \leq x < \infty
 $$
 
