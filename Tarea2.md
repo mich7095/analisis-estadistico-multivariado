@@ -129,9 +129,9 @@ a)P(X<2,Y>1).
 
 $$
 0 \leq y \leq x \newline
-y \leq x < \infty 
+y \leq x < \infty \newline
 
-\int_{1}^{2} int_{1}^{x} e^{-x} dy dx 
+\int_{1}^{2} \int_{1}^{x} e^{-x} dy dx 
 $$
 
 
