@@ -130,7 +130,8 @@ a)P(X<2,Y>1).
 $ 0 \leq y \leq x $
 $ y \leq x < \infty $
 
-$$ \int_{1}^{2}\int_{1}^{x} e^{-x} dydx $$
+$$ \int_{1}^{2}\int_{1}^{x} e^{-x} dydx = \frac{e-2}{e^2} $$
+
 
 
 
