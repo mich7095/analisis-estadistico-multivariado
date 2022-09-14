@@ -129,7 +129,7 @@ a)P(X<2,Y>1).
 
 $$
 0 \leq y \leq x
-y \leq x < infty
+y \leq x < \infty 
 $$
 
 
