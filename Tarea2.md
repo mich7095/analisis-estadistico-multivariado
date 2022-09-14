@@ -118,7 +118,7 @@ $f_X(x)f_Y(y) = \frac{1}{4} \left(y + \frac{1}{2}x^3y^2 - \frac{1}{4}xy^4\right)
 4. 	La administración en un restaurante de comida rápida está interesada en el comportamiento conjunto de las variables aleatorias X y Y.  X, representa el tiempo total entre la llegada de un cliente a la tienda y la salida de la ventanilla de servicio,  Y, el tiempo que un cliente espera en la fila antes de llegar a la ventanilla de servicio. Como X incluye el tiempo que un cliente espera en la fila, debemos tener X≥Y. La distribución de valores observados puede ser modelada por la siguiente función de densidad de probabilidad conjunta
 
 $$f_{XY} = \begin{cases}
-e^{-x}, & 0 \leq y \leq x, \leq <infty \\\\
+e^{-x}, & 0 \leq y \leq x, \leq < infty \\\\
 0 & otros   
 \end{cases}
 $$
