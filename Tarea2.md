@@ -128,8 +128,10 @@ con el tiempo medido en minutos. Encuentre
 a)P(X<2,Y>1).
 
 $$
-0 \leq y \leq x \\\\
+0 \leq y \leq x \newline
 y \leq x < \infty 
+
+\int_{1}^{2} int_{1}^{x} e^{-x} dy dx 
 $$
 
 
