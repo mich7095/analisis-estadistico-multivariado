@@ -131,7 +131,6 @@ $$
 0 \leq y \leq x \newline
 y \leq x < \infty \newline
 
-\int_{1}^{2} \int_{1}^{x} e^{-x} dy dx 
 $$
 
 
