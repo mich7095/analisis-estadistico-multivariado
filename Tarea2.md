@@ -178,6 +178,22 @@ b)	Encuentre P(Y≤1/2 X), la probabilidad de que la cantidad vendida sea menor 
 c) 	¿Serán X y Y independientes?
 ****
 
+6. 	Sean X e Y variables aleatorias continuas con función de densidad de probabilidad conjunta
+
+$$ f_{XY}(x, y) =\begin{cases}
+               4xy & 0 \leq x \leq 1, 0\leq y \leq 1\\\\
+               0 & otros
+            \end{cases}$$
+            
+Determine
+
+a) 	Las funciones de densidad de probabilidad marginal para X e Y.
+
+b) 	P(X≤1/2|Y≥3/4┤)
+
+c)  Las funciones de densidad de probabilidad condicional de X e Y.
+
+d) 	P(X≤3/4|Y=1/2┤)
 
 
 
