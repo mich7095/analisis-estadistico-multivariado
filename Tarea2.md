@@ -62,11 +62,11 @@ Las mediciones son en cientos de horas.
 
 a) Encuentre $𝑃(𝑋> 1,𝑌> 1)$
 
-$𝑃(𝑋> 1,𝑌> 1) = \int^{\infty}_{1} \int^{\infty}_{1} \frac{1}{8}xe^{-(x + y)/2} dydx$
+$$𝑃(𝑋> 1,𝑌> 1) = \int^{\infty}_{1} \int^{\infty}_{1} \frac{1}{8}xe^{-(x + y)/2} dydx$$
 
-$= \frac{1}{8} \int^{\infty}_{1} xe^{x/2} \left[ -0 + 2e^{-1/2} \right]dx = -\frac{1}{4} e^{-1/2}  \int^{\infty}_{1} x e^{-x/2} dx$
+$$= \frac{1}{8} \int^{\infty}_{1} xe^{x/2} \left[ -0 + 2e^{-1/2} \right]dx = -\frac{1}{4} e^{-1/2}  \int^{\infty}_{1} x e^{-x/2} dx$$
 
-$= \frac{1}{4} e^{-1/2} e^{-1/2}\left[ -2x -4 \right] \Big|^{\infty}_1 = -\frac{1}{4} e^{-1/2} e^{-1/2}\left[ -2 -4 \right]$
+$$= \frac{1}{4} e^{-1/2} e^{-1/2}\left[ -2x -4 \right] \Big|^{\infty}_1 = -\frac{1}{4} e^{-1/2} e^{-1/2}\left[ -2 -4 \right]$$
 
 $$\boxed{= \frac{3}{2e} \approxeq .5518}$$
 
