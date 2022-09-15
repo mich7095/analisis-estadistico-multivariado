@@ -155,6 +155,7 @@ $$ fx (x) = \int_{y}^{\infty} e^{-x} dy = e^{-y} $$
 $$ fy (y) = \int_{0}^{x} e^{-x} dx =  -e^{-x}+1 $$
 
 c) ¿Cuál es la función de densidad condicional de X dado que Y=y?
+$$ frac{e^{-x}}{-e^{-x}+1}$$
 d) ¿Cuál es la función de densidad condicional de Y dado que X=x?
 e) ¿La función de densidad condicional que obtuvo en el inciso c es la misma que la función de densidad marginal hallada en el inciso b?
 f) ¿Qué implica su respuesta del inciso e?
