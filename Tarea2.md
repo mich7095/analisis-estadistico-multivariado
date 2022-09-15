@@ -183,13 +183,13 @@ $$ = \int_{0}^{1/3} 3/8 - 3/2 y^2 dy $$
 
 $$ \frac{3}{8} y - \frac{3}{6} y^3 \Big|_0^\frac{1}{3} = \frac{3}{8} (\frac{1}{3}) - \frac{3}{6}(\frac{1}{3})^3 $$
 
-$$ = \int_{0}^{1/3}3x(\frac{1}{2}x)dx = \frac{1}{2}x \Big|_0^1 $$
-
 $$ = \boxed{\frac{23}{216}\approxeq 0.1065} $$
 
 b)	Encuentre P(Y≤1/2 X), la probabilidad de que la cantidad vendida sea menor que la mitad de la cantidad comprada.
 
 $$ \int_{0}^{1}\int_{0}^{\frac{1}{2}x} 3x dydx $$
+
+$$ = \int_{0}^{\frac{1}{3}}3x(\frac{1}{2}x)dx = \frac{1}{2}x \Big|_0^1 $$
 
 $$ \boxed {P(Y≤1/2 X) = \frac{1}{2}} $$
 
