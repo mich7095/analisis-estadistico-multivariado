@@ -171,6 +171,13 @@ $$f_{XY} = \begin{cases}
 \end{cases}
 $$
 
+a) 	Encuentre P(X≤1/2,Y≤1/3)
+
+b)	Encuentre P(Y≤1/2 X), la probabilidad de que la cantidad vendida sea menor que la mitad de la cantidad comprada.
+
+c) 	¿Serán X y Y independientes?
+****
+
 
 
 
