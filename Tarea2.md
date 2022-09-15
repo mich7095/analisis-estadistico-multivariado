@@ -196,18 +196,20 @@ $$ fy (y) = \int_{0}^{1} 4xy dx = 2y $$
 b) 	P(X≤1/2|Y≥3/4)
 
 $$ 0 \leq x \leq 1/2,
- 3/4 \leq x \leq 1
+ 3/4 \leq y \leq 1
 $$
 
 $$ \frac{\int_{0}^{1/2}\int_{3/4}^{1} 4xy dydx}{\int_{3/4}^{1} 2ydy} $$
 
-$$ \frac{0.109375}{0.4375} = 0.25 $$
+$$ \frac{0.109375}{0.4375} = 0.25 o 25% $$
 
 c)  Las funciones de densidad de probabilidad condicional de X e Y.
 
 $$ f_{X|Y} = \frac{4xy}{2y} = 2x $$
 
 d) 	P(X≤3/4|Y=1/2)
+
+$$ 
 
 
 
