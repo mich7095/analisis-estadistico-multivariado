@@ -177,6 +177,14 @@ $$
 
 a) 	Encuentre P(X≤1/2,Y≤1/3)
 
+P(X≤1/2,Y≤1/3) = $$ \int_{0}^{1/3}\int_{y}^{1/2} 3x dydx $$
+
+$$ = \int_{0}^{1/3} 3/8 - 3/2 y^2 dy $$
+
+$$ \frac{3}{8} y - \frac{3}{6} y^3 \Big|_0^\frac{1}{3} = \frac{3}{8} (\frac{1}{3}) - \frac{3}{6}(\frac{1}{3})^3 $$
+
+$$ = \boxed{\frac{23}{216}\approxeq 0.1065} $$
+
 b)	Encuentre P(Y≤1/2 X), la probabilidad de que la cantidad vendida sea menor que la mitad de la cantidad comprada.
 
 c) 	¿Serán X y Y independientes?
