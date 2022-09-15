@@ -151,6 +151,7 @@ $$ = \frac{e-2}{e^2} $$
 b) 	Las funciones de densidad marginal para X y Y.
 
 $$ fx (x) = \int_{y}^{\infty} e^{-x} dy $$
+
 $$ $$ fy (y) = \int_{0}^{x} e^{-x} dx $$
 
 
