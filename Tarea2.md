@@ -118,6 +118,10 @@ Si $f_{XY}(x,y) = f_X(x)f_Y(y)$ para toda x, y; entonces $X$ y $Y$ son independi
 $f_{XY}(x,y) = \frac{1}{4}(1 + xy(x^2 - y^2))$
 
 $f_X(x)f_Y(y) = \frac{1}{4} \left(y + \frac{1}{2}x^3y^2 - \frac{1}{4}xy^4\right) \cdot \frac{1}{4}\left( x + \frac{1}{4}x^4y - \frac{1}{2}x^2y^3 \right)$
+
+$$ {fxy_{x,y} \neq fx_{x} fy_{y}}$$ 
+
+No son independientes
 ****
 4. 	La administración en un restaurante de comida rápida está interesada en el comportamiento conjunto de las variables aleatorias X y Y.  X, representa el tiempo total entre la llegada de un cliente a la tienda y la salida de la ventanilla de servicio,  Y, el tiempo que un cliente espera en la fila antes de llegar a la ventanilla de servicio. Como X incluye el tiempo que un cliente espera en la fila, debemos tener X≥Y. La distribución de valores observados puede ser modelada por la siguiente función de densidad de probabilidad conjunta
 
