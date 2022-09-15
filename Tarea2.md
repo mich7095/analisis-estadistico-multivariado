@@ -133,7 +133,8 @@ $$
 
 $$ \int_{1}^{2}\int_{1}^{x} e^{-x} dydx = \frac{e-2}{e^2} $$
 
-$$ \int _1^xe^{-x}dy $$
+$$ \int _1^xe^{-x}dy  =\left[e^{-x}y\right]^x_1 $$
+
 
 
 
