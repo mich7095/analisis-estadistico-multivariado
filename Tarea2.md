@@ -211,9 +211,11 @@ $$ f_{Y|X} = \frac{4xy}{2x} = 2y $$
 
 d) 	P(X≤3/4|Y=1/2)
 
-$$ 
+$$ \int _0^{\frac{3}{4}}2xdx $$ 
 
+$$ =2\left[\frac{x^2}{2}\right]^{\frac{3}{4}}_0 $$
 
+$$ =2\cdot \frac{9}{32}  = \frac{9}{16} = \:0.5625$$
 
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
