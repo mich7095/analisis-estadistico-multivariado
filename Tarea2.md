@@ -12,14 +12,12 @@ $$ f_{XY}(x, y) =\begin{cases}
 Determine
 a) La función de distribución acumulada.
 
-$$F_{XY}(x,y) = \int_{0}^x\int_{0}^{y} \left( \frac{1}{2}u + \frac{3}{2}v \right)dvdu = \int_{0}^x \frac{1}{2}uv +  \frac{3}{4}v^2 \Big|_{0}^{y} du$$
+$$ F_{XY}(x,y) = \int _0^x\int _0^y\frac{1}{2}x+\frac{3}{2}y_dydx $$
 
+$$ F_{XY}(x,y) = \int _0^x\frac{1}{2}xy+\frac{3}{4}y^2_dx $$
 
-$$= \int_{0}^x \frac{1}{2}uy +  \frac{3}{4}y^2 du$$
+$$ =  \boxed {\frac{1}{4}x^2y + \frac{3}{4}xy^2}$$
 
-$$= \frac{1}{4}u^2y + \frac{3}{4}y^2u \Big|_0^{x} = \frac{1}{4}x^2y + \frac{3}{4}y^2x$$
-
-$$= \boxed{\frac{1}{4}xy\left(x + 3y\right)}$$
 b) Las funciones de densidad de probabilidad marginal para 𝑋 e 𝑌.
 
 $f_X(x) = \int_{0}^{1}\left( \frac{1}{2}x + \frac{3}{2} v\right) dv = \frac{1}{2}xv + \frac{3}{4} v^2 \Big|^{1}_0 = \boxed{\frac{1}{2}x + \frac{3}{4}}$
@@ -28,19 +26,25 @@ $f_Y(y) = \int_{0}^{1}\left( \frac{1}{2}u + \frac{3}{2} y\right) du = \frac{1}{4
 
 c) Las funciones de densidad de probabilidad condicional de 𝑋 e 𝑌.
 
-$$f_{X|Y}(x|y) = \boxed{\frac{\frac{1}{2}x + \frac{3}{2}y}{\frac{1}{4}x^2 + \frac{3}{2}yx}}$$
+$$f_{X|Y}(x|y) = \boxed{\frac{\frac{1}{2}x + \frac{3}{2}y}{\frac{1}{4} + \frac{3}{2}y}}$$
 
-$$f_{Y|X}(y|x) = \boxed{\frac{\frac{1}{2}x + \frac{3}{2}y}{\frac{1}{2}xy + \frac{3}{4} y^2}}$$
+$$f_{Y|X}(y|x) = \boxed{\frac{\frac{1}{2}x + \frac{3}{2}y}{\frac{1}{2}x + \frac{3}{4}}}$$
 
 d) Si las variables aleatorias son independientes.
 
 Si $f_{XY}(x,y) = f_X(x)f_Y(y)$ para toda x, y; entonces $X$ y $Y$ son independientes
 
-$f_{XY}(x,y) = \frac{1}{2}x + \frac{3}{2}y$
+$f_{X}(x) = \frac{1}{2}x + \frac{3}{4}$
 
-$f_X(x)f_Y(y) = \left( \frac{1}{2}x + \frac{3}{4} \right) \left( \frac{1}{4} + \frac{3}{2}y \right) = \frac{1}{8}x + \frac{3}{4}xy + \frac{3}{16} + \frac{9}{8}y$
+$f_{Y}(y) = \frac{3}{2}y + \frac{1}{4}$
 
-$\frac{1}{2}x + \frac{3}{2}y \neq \frac{1}{8}x + \frac{3}{4}xy + \frac{3}{16} + \frac{9}{8}y \rightarrow \therefore \text{ X y Y No son independientes}$
+$fx_{x} fy_{y} = \left(\frac{1}{2}x+\frac{3}{4}\right)\left(\frac{3}{2}y+\frac{1}{4}\right)$
+
+$fxy_{x,y} = \frac{1}{2}x + \frac{5}{2}y $
+
+$$ {fxy_{x,y} \neq fx_{x} fy_{y}}$$
+
+No son independientes
 
 ****
 
