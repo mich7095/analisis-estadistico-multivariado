@@ -201,7 +201,7 @@ $$
 
 $$ \frac{\int_{0}^{1/2}\int_{3/4}^{1} 4xy dydx}{\int_{3/4}^{1} 2ydy} $$
 
-$$ \frac{0.109375}{0.4375} = 0.25 o 25\% $$
+$$ \frac{0.109375}{0.4375} = 0.25$$
 
 c)  Las funciones de densidad de probabilidad condicional de X e Y.
 
