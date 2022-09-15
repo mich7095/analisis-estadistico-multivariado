@@ -187,7 +187,11 @@ $$ = \boxed{\frac{23}{216}\approxeq 0.1065} $$
 
 b)	Encuentre P(Y≤1/2 X), la probabilidad de que la cantidad vendida sea menor que la mitad de la cantidad comprada.
 
-c) 	¿Serán X y Y independientes?
+$$ \int_{0}^{1}\int_{0}^{\frac{1}{2}x} 3x dydx $$
+
+$$ \boxed {P(Y≤1/2 X) = \frac{1}{2}} $$
+
+c) 	¿Serán X y Y independientes? No son independientes
 ****
 
 6. 	Sean X e Y variables aleatorias continuas con función de densidad de probabilidad conjunta
