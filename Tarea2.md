@@ -194,6 +194,9 @@ $$ fx (x) = \int_{0}^{1} 4xy dy = 2x $$
 $$ fy (y) = \int_{0}^{1} 4xy dx = 2y $$
 
 b) 	P(X≤1/2|Y≥3/4┤)
+$$ 0 \leq x \leq \frac{1}{2} ,
+ y \leq x < \infty
+$$
 
 c)  Las funciones de densidad de probabilidad condicional de X e Y.
 
