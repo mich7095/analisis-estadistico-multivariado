@@ -235,7 +235,7 @@ $$ 0 \leq x \leq 1/2,
  3/4 \leq y \leq 1
 $$
 
-$$ \frac{\int_{0}^{1/2}\int_{3/4}^{1} 4xy dydx}{\int_{3/4}^{1} 2ydy} $$
+$$ \frac{\int_{0}^{\frac{1}{2}}\int_{\frac{3}{4}}^{1} 4xy dydx}{\int_{\frac{3}{4}}^{1} 2ydy} $$
 
 $$ \frac{0.109375}{0.4375} = \boxed{0.25}$$
 
