@@ -150,9 +150,9 @@ $$ = \frac{e-2}{e^2} $$
 
 b) 	Las funciones de densidad marginal para X y Y.
 
-$$ fx (x) = \int_{y}^{\infty} e^{-x} dy $$
+$$ fx (x) = \int_{y}^{\infty} e^{-x} dy = e^{-y} $$
 
-$$ fy (y) = \int_{0}^{x} e^{-x} dx $$
+$$ fy (y) = \int_{0}^{x} e^{-x} dx =  -e^{-x}+1 $$
 
 c) ¿Cuál es la función de densidad condicional de X dado que Y=y?
 d) ¿Cuál es la función de densidad condicional de Y dado que X=x?
