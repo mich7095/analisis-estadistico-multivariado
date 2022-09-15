@@ -209,6 +209,7 @@ $$ f_{Y|X} = \frac{4xy}{2x} = 2y $$
 
 d) 	P(X≤3/4|Y=1/2)
 
+holaa
 
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
