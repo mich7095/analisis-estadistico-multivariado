@@ -201,15 +201,15 @@ $$
 
 $$ \frac{\int_{0}^{1/2}\int_{3/4}^{1} 4xy dydx}{\int_{3/4}^{1} 2ydy} $$
 
+$$ \frac{0.109375}{0.4375} = 0.25 $$
+
 c)  Las funciones de densidad de probabilidad condicional de X e Y.
 
 $$ f_{X|Y} = \frac{4xy}{2y} = 2x $$
 
-$$ f_{Y|X} = \frac{4xy}{2x} = 2y $$
-
 d) 	P(X≤3/4|Y=1/2)
 
-holaa
+
 
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
