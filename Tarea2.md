@@ -131,9 +131,13 @@ $$ 0 \leq y \leq x ,
  y \leq x < \infty
 $$
 
-$$ \int_{1}^{2}\int_{1}^{x} e^{-x} dydx = \frac{e-2}{e^2} $$
+$$ \int_{1}^{2}\int_{1}^{x} e^{-x} dydx $$
 
 $$ \int _1^xe^{-x}dy  =\left[e^{-x}y\right]^x_1 $$
+$$ =e^{-x}x-e^{-x}$$
+$$ =\int _1^2\left(e^{-x}x-e^{-x}\right)dx$$
+
+$$ \int_{1}^{2}\int_{1}^{x} e^{-x} dydx = \frac{e-2}{e^2} $$
 
 
 
