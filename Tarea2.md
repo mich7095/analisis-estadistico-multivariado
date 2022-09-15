@@ -221,9 +221,9 @@ Determine
 
 a) 	Las funciones de densidad de probabilidad marginal para X e Y.
 
-$$ fx (x) = \int_{0}^{1} 4xy dy = 2x $$
+$$ \boxed{fx (x) = \int_{0}^{1} 4xy dy = 2x} $$
 
-$$ fy (y) = \int_{0}^{1} 4xy dx = 2y $$
+$$ \boxed{fy (y) = \int_{0}^{1} 4xy dx = 2y} $$
 
 b) 	P(X≤1/2|Y≥3/4)
 
@@ -233,13 +233,13 @@ $$
 
 $$ \frac{\int_{0}^{1/2}\int_{3/4}^{1} 4xy dydx}{\int_{3/4}^{1} 2ydy} $$
 
-$$ \frac{0.109375}{0.4375} = 0.25$$
+$$ \frac{0.109375}{0.4375} = \boxed{0.25}$$
 
 c)  Las funciones de densidad de probabilidad condicional de X e Y.
 
-$$ f_{X|Y} = \frac{4xy}{2y} = 2x $$
+$$ f_{X|Y} = \frac{4xy}{2y} = \boxed{2x} $$
 
-$$ f_{Y|X} = \frac{4xy}{2x} = 2y $$
+$$ f_{Y|X} = \frac{4xy}{2x} = \boxed{2y} $$
 
 d) 	P(X≤3/4|Y=1/2)
 
@@ -247,7 +247,9 @@ $$ \int _0^{\frac{3}{4}}2xdx $$
 
 $$ =2\left[\frac{x^2}{2}\right]^{\frac{3}{4}}_0 $$
 
-$$ =2\cdot \frac{9}{32}  = \frac{9}{16} = \:0.5625$$
+$$ =2\cdot \frac{9}{32}  = \frac{9}{16}$$
+
+$$ \boxed{0.5625}$$
 
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
