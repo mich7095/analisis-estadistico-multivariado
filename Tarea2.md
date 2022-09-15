@@ -189,6 +189,10 @@ Determine
 
 a) 	Las funciones de densidad de probabilidad marginal para X e Y.
 
+$$ fx (x) = \int_{0}^{1} 4xy dy = 2x $$
+
+$$ fy (y) = \int_{0}^{1} 4xy dx = 2y $$
+
 b) 	P(X≤1/2|Y≥3/4┤)
 
 c)  Las funciones de densidad de probabilidad condicional de X e Y.
