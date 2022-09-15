@@ -138,9 +138,9 @@ $$ =\left[e^{-x}y\right]^x_1 $$
 $$ =e^{-x}x-e^{-x} $$
 $$ =\int _1^2\left(e^{-x}x-e^{-x}\right)dx $$
 segunda integral
-$$ =\int _1^2\left(e^{-x}x-e^{-x}\right)dx $$
-$$ =\int _1^2e^{-x}xdx-\int _1^2e^{-x}dx $$
-$$ =-\frac{3}{e^2}+\frac{2}{e}-\left(\frac{1}{e}-\frac{1}{e^2}\right) $$
+$$ \int _1^2\left(e^{-x}x-e^{-x}\right)dx $$
+$$ \int _1^2e^{-x}xdx-\int _1^2e^{-x}dx $$
+$$ = -\frac{3}{e^2}+\frac{2}{e}-\left(\frac{1}{e}-\frac{1}{e^2}\right) $$
 
 $$ = \frac{e-2}{e^2} $$
 
