@@ -142,6 +142,7 @@ $$ =e^{-x}x-e^{-x} $$
 $$ =\int _1^2\left(e^{-x}x-e^{-x}\right)dx $$
 
 segunda integral
+
 $$ \int _1^2\left(e^{-x}x-e^{-x}\right)dx $$
 
 $$ \int _1^2e^{-x}xdx-\int _1^2e^{-x}dx $$
