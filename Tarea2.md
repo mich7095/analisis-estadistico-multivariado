@@ -163,8 +163,18 @@ c) ¿Cuál es la función de densidad condicional de X dado que Y=y?
 $$ \frac{e^{-x}}{-e^{-x}+1}$$
 
 d) ¿Cuál es la función de densidad condicional de Y dado que X=x?
+
+$$ \frac{e^{-x}}{e^{-y}}$$
+
 e) ¿La función de densidad condicional que obtuvo en el inciso c es la misma que la función de densidad marginal hallada en el inciso b?
+
+No
+
 f) ¿Qué implica su respuesta del inciso e?
+
+Que las variables "x" e "y" no son independientes. 
+
+
 ****
 
 5. 	Considere la función de densidad de probabilidad conjunta de X, la proporción de la capacidad de un tanque que ha sido abastecido al principio de la semana y Y, la proporción de la capacidad vendida durante la semana.
