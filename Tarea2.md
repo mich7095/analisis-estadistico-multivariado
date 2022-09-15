@@ -127,10 +127,13 @@ con el tiempo medido en minutos. Encuentre
 
 a)P(X<2,Y>1).
 
-$0 \leq y \leq x ,
- y \leq x < \infty$
+$$ 0 \leq y \leq x ,
+ y \leq x < \infty
+$$
 
 $$ \int_{1}^{2}\int_{1}^{x} e^{-x} dydx = \frac{e-2}{e^2} $$
+
+$$ \int _1^xe^{-x}dy $$
 
 
 
