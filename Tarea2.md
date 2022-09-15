@@ -152,7 +152,7 @@ b) 	Las funciones de densidad marginal para X y Y.
 
 $$ fx (x) = \int_{y}^{\infty} e^{-x} dy $$
 
-$$ $$ fy (y) = \int_{0}^{x} e^{-x} dx $$
+$$ fy (y) = \int_{0}^{x} e^{-x} dx $$
 
 
 
