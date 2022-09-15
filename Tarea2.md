@@ -193,7 +193,11 @@ $$ = \int_{0}^{\frac{1}{3}}3x(\frac{1}{2}x)dx = \frac{1}{2}x \Big|_0^1 $$
 
 $$ \boxed {P(Y≤1/2 X) = \frac{1}{2}} $$
 
-c) 	¿Serán X y Y independientes? No son independientes
+c) 	¿Serán X y Y independientes?
+
+$$ {fxy_{x,y} \neq fx_{x} fy_{y}}$$
+
+No son independientes
 ****
 
 6. 	Sean X e Y variables aleatorias continuas con función de densidad de probabilidad conjunta
