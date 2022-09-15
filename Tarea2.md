@@ -207,6 +207,8 @@ c)  Las funciones de densidad de probabilidad condicional de X e Y.
 
 $$ f_{X|Y} = \frac{4xy}{2y} = 2x $$
 
+$$ f_{Y|X} = \frac{4xy}{2x} = 2y $$
+
 d) 	P(X≤3/4|Y=1/2)
 
 $$ 
