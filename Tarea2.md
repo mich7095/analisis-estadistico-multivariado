@@ -199,6 +199,8 @@ $$ 0 \leq x \leq 1/2,
  3/4 \leq x \leq 1
 $$
 
+$$ \frac{\int_{0}^{1/2}\int_{3/4}^{1} 4xy dydx}{\int_{3/4}^{1} 2ydy} $$
+
 c)  Las funciones de densidad de probabilidad condicional de X e Y.
 
 d) 	P(X≤3/4|Y=1/2┤)
