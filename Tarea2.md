@@ -162,6 +162,11 @@ f) ¿Qué implica su respuesta del inciso e?
 
 5. 	Considere la función de densidad de probabilidad conjunta de X, la proporción de la capacidad de un tanque que ha sido abastecido al principio de la semana y Y, la proporción de la capacidad vendida durante la semana.
 
+$$f_{XY} = \begin{cases}
+3x, & 0 \leq y \leq x \leq 1  \\\\
+0 & otros   
+\end{cases}
+$$
 
 
 
